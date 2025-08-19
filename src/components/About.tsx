@@ -43,7 +43,7 @@ const About = () => {
               </p>
               
               <p>
-                I specialize in Flutter, React-Native, React, TypeScript, Python, Django, FastApi, Node.js, MySql, MongoDb, and modern app & web technologies, 
+                I specialize in Flutter, React-Native, React, TypeScript, Python, Django, FastApi, Node.js, MySql, MongoDb, and modern mobile App & web App technologies, 
                 always staying up-to-date with the latest trends and best practices. 
                 When I'm not coding, you'll find me exploring new design systems, 
                 contributing to open source, or mentoring fellow developers.
