@@ -39,11 +39,11 @@ const About = () => {
                 I'm a passionate FullStack developer with over 1.5 years of experience 
                 creating digital experiences that matter. My journey started with a 
                 curiosity for how things work and evolved into a love for crafting 
-                beautiful, functional Mobile & web applications.
+                beautiful, functional Mobile & Web applications.
               </p>
               
               <p>
-                I specialize in Flutter,React-Native,Flutter,React, TypeScript, and modern web technologies, 
+                I specialize in Flutter, React-Native, React, TypeScript, Python, Django, FastApi, Node.js, MySql, MongoDb, and modern app & web technologies, 
                 always staying up-to-date with the latest trends and best practices. 
                 When I'm not coding, you'll find me exploring new design systems, 
                 contributing to open source, or mentoring fellow developers.
