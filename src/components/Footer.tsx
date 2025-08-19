@@ -8,15 +8,15 @@ const Footer = () => {
       <div className="container mx-auto max-w-6xl">
         <div className="flex flex-col md:flex-row justify-between items-center gap-6">
           <div className="text-center md:text-left">
-            <h3 className="text-xl font-bold gradient-text mb-2">Alex Morgan</h3>
+            <h3 className="text-xl font-bold gradient-text mb-2">Md Kaifee</h3>
             <p className="text-muted-foreground">
-              Frontend Developer & Designer
+              Full Stack Developer
             </p>
           </div>
           
           <div className="flex items-center gap-6">
             <a 
-              href="https://github.com" 
+              href="https://github.com/Mdkaifee" 
               target="_blank" 
               rel="noopener noreferrer"
               className="p-2 rounded-full hover:bg-primary/10 hover:text-primary transition-all"
@@ -24,7 +24,7 @@ const Footer = () => {
               <Github className="w-5 h-5" />
             </a>
             <a 
-              href="https://linkedin.com" 
+              href="https://www.linkedin.com/in/md-kaifee-94a10b1a3/" 
               target="_blank" 
               rel="noopener noreferrer"
               className="p-2 rounded-full hover:bg-primary/10 hover:text-primary transition-all"
@@ -32,7 +32,7 @@ const Footer = () => {
               <Linkedin className="w-5 h-5" />
             </a>
             <a 
-              href="mailto:alex@example.com"
+              href="mailto:kaifeeeminence@gmail.com"
               className="p-2 rounded-full hover:bg-primary/10 hover:text-primary transition-all"
             >
               <Mail className="w-5 h-5" />
@@ -42,7 +42,7 @@ const Footer = () => {
         
         <div className="mt-8 pt-8 border-t border-border/30 text-center">
           <p className="text-muted-foreground flex items-center justify-center gap-2">
-            © {currentYear} Alex Morgan. Made with 
+            © {currentYear} Md Kaifee. Made with 
             <Heart className="w-4 h-4 text-red-500" /> 
             and lots of coffee.
           </p>

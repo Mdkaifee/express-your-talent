@@ -34,11 +34,11 @@ const Hero = () => {
         <div className="animate-fade-in-up">
           <h1 className="text-5xl md:text-7xl font-bold mb-6 leading-tight">
             Hi, I'm{' '}
-            <span className="gradient-text">Alex Morgan</span>
+            <span className="gradient-text">Md Kaifee</span>
           </h1>
           
           <p className="text-xl md:text-2xl text-muted-foreground mb-8 max-w-2xl mx-auto">
-            Frontend Developer & Designer crafting beautiful, functional digital experiences 
+            Full Stack Developer crafting beautiful, functional digital experiences 
             that blend creativity with cutting-edge technology
           </p>
           
@@ -63,7 +63,7 @@ const Hero = () => {
           {/* Social Links */}
           <div className="flex justify-center space-x-6 mb-12">
             <a 
-              href="https://github.com" 
+              href="https://github.com/Mdkaifee" 
               target="_blank" 
               rel="noopener noreferrer"
               className="p-3 glass-card rounded-full hover-lift hover:text-primary transition-colors"
@@ -71,7 +71,7 @@ const Hero = () => {
               <Github className="w-6 h-6" />
             </a>
             <a 
-              href="https://linkedin.com" 
+              href="https://www.linkedin.com/in/md-kaifee-94a10b1a3/" 
               target="_blank" 
               rel="noopener noreferrer"
               className="p-3 glass-card rounded-full hover-lift hover:text-primary transition-colors"
@@ -79,7 +79,7 @@ const Hero = () => {
               <Linkedin className="w-6 h-6" />
             </a>
             <a 
-              href="mailto:alex@example.com"
+              href="mailto:kaifeeeminence@gmail.com"
               className="p-3 glass-card rounded-full hover-lift hover:text-primary transition-colors"
             >
               <Mail className="w-6 h-6" />
