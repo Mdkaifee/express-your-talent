@@ -36,14 +36,14 @@ const About = () => {
             
             <div className="space-y-4 text-muted-foreground text-lg leading-relaxed">
               <p>
-                I'm a passionate frontend developer with over 5 years of experience 
+                I'm a passionate FullStack developer with over 1.5 years of experience 
                 creating digital experiences that matter. My journey started with a 
                 curiosity for how things work and evolved into a love for crafting 
-                beautiful, functional web applications.
+                beautiful, functional Mobile & web applications.
               </p>
               
               <p>
-                I specialize in React, TypeScript, and modern web technologies, 
+                I specialize in Flutter,React-Native,Flutter,React, TypeScript, and modern web technologies, 
                 always staying up-to-date with the latest trends and best practices. 
                 When I'm not coding, you'll find me exploring new design systems, 
                 contributing to open source, or mentoring fellow developers.

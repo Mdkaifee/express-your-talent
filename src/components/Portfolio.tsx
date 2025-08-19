@@ -62,7 +62,7 @@ const Portfolio = () => {
             My <span className="gradient-text">Portfolio</span>
           </h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-            A selection of projects that showcase my skills in frontend development, 
+            A selection of projects that showcase my skills in FullStack development, 
             design, and problem-solving. Each project represents a unique challenge 
             and learning opportunity.
           </p>
