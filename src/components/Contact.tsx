@@ -12,17 +12,18 @@ const Contact = () => {
     message: ''
   });
 
-  const handleSubmit = (e: React.FormEvent) => {
-    e.preventDefault();
-    // Handle form submission here
-    console.log('Form submitted:', formData);
-  };
+  const [isSubmitted, setIsSubmitted] = useState(false); // State to track form submission status
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
     setFormData({
       ...formData,
       [e.target.name]: e.target.value
     });
+  };
+
+  // Handle successful submission
+  const handleSuccess = () => {
+    setIsSubmitted(true); // Change state on successful submission
   };
 
   const contactInfo = [
@@ -58,60 +59,74 @@ const Contact = () => {
             your ideas to life with modern, scalable web solutions.
           </p>
         </div>
-        
+
         <div className="grid lg:grid-cols-2 gap-12">
           {/* Contact Form */}
           <Card className="glass-card border-0">
             <CardContent className="p-8">
-              <h3 className="text-2xl font-semibold mb-6">Send a Message</h3>
-              
-              <form onSubmit={handleSubmit} className="space-y-6">
-                <div>
-                  <Input 
-                    name="name"
-                    placeholder="Your Name"
-                    value={formData.name}
-                    onChange={handleChange}
-                    className="bg-background/50 border-border/50 focus:border-primary"
-                    required
-                  />
+              {!isSubmitted ? (
+                <>
+                  <h3 className="text-2xl font-semibold mb-6">Send a Message</h3>
+                  <form
+                    action="https://formspree.io/f/mdkzlqze" // Formspree endpoint
+                    method="POST"  // POST method for form submission
+                    className="space-y-6"
+                  >
+                    <div>
+                      <Input 
+                        name="name"
+                        placeholder="Your Name"
+                        value={formData.name}
+                        onChange={handleChange}
+                        className="bg-background/50 border-border/50 focus:border-primary"
+                        required
+                      />
+                    </div>
+
+                    <div>
+                      <Input 
+                        name="email"
+                        type="email"
+                        placeholder="Your Email"
+                        value={formData.email}
+                        onChange={handleChange}
+                        className="bg-background/50 border-border/50 focus:border-primary"
+                        required
+                      />
+                    </div>
+
+                    <div>
+                      <Textarea 
+                        name="message"
+                        placeholder="Your Message"
+                        value={formData.message}
+                        onChange={handleChange}
+                        className="bg-background/50 border-border/50 focus:border-primary min-h-32 resize-none"
+                        required
+                      />
+                    </div>
+
+                    <Button 
+                      type="submit"
+                      className="w-full bg-gradient-primary text-primary-foreground hover:opacity-90 transition-opacity"
+                      size="lg"
+                    >
+                      <Send className="w-5 h-5 mr-2" />
+                      Send Message
+                    </Button>
+                  </form>
+                </>
+              ) : (
+                <div className="text-center">
+                  <h3 className="text-2xl font-semibold mb-4">Thank you for the message!</h3>
+                  <p className="text-lg text-muted-foreground">
+                    We will get in contact with you soon.
+                  </p>
                 </div>
-                
-                <div>
-                  <Input 
-                    name="email"
-                    type="email"
-                    placeholder="Your Email"
-                    value={formData.email}
-                    onChange={handleChange}
-                    className="bg-background/50 border-border/50 focus:border-primary"
-                    required
-                  />
-                </div>
-                
-                <div>
-                  <Textarea 
-                    name="message"
-                    placeholder="Your Message"
-                    value={formData.message}
-                    onChange={handleChange}
-                    className="bg-background/50 border-border/50 focus:border-primary min-h-32 resize-none"
-                    required
-                  />
-                </div>
-                
-                <Button 
-                  type="submit"
-                  className="w-full bg-gradient-primary text-primary-foreground hover:opacity-90 transition-opacity"
-                  size="lg"
-                >
-                  <Send className="w-5 h-5 mr-2" />
-                  Send Message
-                </Button>
-              </form>
+              )}
             </CardContent>
           </Card>
-          
+
           {/* Contact Info */}
           <div className="space-y-8">
             <div>
@@ -122,7 +137,7 @@ const Contact = () => {
                 just want to chat about possibilities, I'd love to hear from you.
               </p>
             </div>
-            
+
             <div className="space-y-4">
               {contactInfo.map((info, index) => {
                 const Icon = info.icon;
@@ -145,7 +160,7 @@ const Contact = () => {
                 );
               })}
             </div>
-            
+
             <div className="glass-card p-6">
               <h4 className="font-semibold mb-2">Quick Response</h4>
               <p className="text-sm text-muted-foreground">

@@ -5,19 +5,18 @@ const Skills = () => {
     {
       title: "Frontend Development",
       skills: [
-        { name: "React/Next.js", level: 95 },
-        { name: "TypeScript", level: 90 },
-        { name: "Tailwind CSS", level: 95 },
-        { name: "JavaScript ES6+", level: 92 }
+        { name: "React-Native", level: 95 },
+        { name: "Flutter", level: 90 },
+        { name: "React", level: 95 },
+         { name: "Python", level: 85 },
       ]
     },
     {
-      title: "Design & Tools",
+      title: "Database",
       skills: [
-        { name: "Figma", level: 85 },
-        { name: "Adobe Creative Suite", level: 80 },
-        { name: "UI/UX Design", level: 88 },
-        { name: "Responsive Design", level: 95 }
+        { name: "MySql", level: 85 },
+        { name: "MongoDb", level: 80 },
+        { name: "Postgresql", level: 88 }
       ]
     },
     {
@@ -25,8 +24,10 @@ const Skills = () => {
       skills: [
         { name: "Node.js", level: 75 },
         { name: "Git/GitHub", level: 90 },
-        { name: "Vercel/Netlify", level: 85 },
-        { name: "REST APIs", level: 80 }
+        { name: "REST APIs", level: 80 },
+         
+      { name: "Django", level: 80 },
+      { name: "FastAPI", level: 80 }
       ]
     }
   ];
