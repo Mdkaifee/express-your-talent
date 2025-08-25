@@ -56,7 +56,7 @@ const Portfolio = () => {
       title: "Property Fusion-Backend",
       description: "A role-based backend management system designed to handle user authentication, file upload management, and CRUD operations. The system ensures modularity and scalability, allowing for easy integration with other services and efficient user data management.",
       tags: ["Python", "FastAPI", "MySql", "SqlAlchemy"],
-      image: "http://dev.propertyfusion.io/_next/image?url=%2Fproperty-fusion-logo-orange.png&w=128&q=75",
+      image: "https://i0.wp.com/propertyfusion.io/wp-content/uploads/2024/09/header-prop-fusion.png?resize=1024%2C586&ssl=1", 
       liveUrl: "http://dev.propertyfusion.io/",
       githubUrl: "#"
     },
