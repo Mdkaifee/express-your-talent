@@ -56,14 +56,22 @@ const Portfolio = () => {
       liveUrl: "https://play-lh.googleusercontent.com/wm1OFLcRD7n-M2P7FnW2REEsIGg1BsA-u1hJlCeMA0ztHMZLmkMHBwrQtTnb_Gx3ybyo4vpTvSNXto5BDbSDAA=w526-h296-rw",
       githubUrl: "#"
     },
-     {
-      title: "Attendance App",
-      description: "A real-time attendance tracking application that enables users to mark attendance with check-in and check-out logic. The app stores attendance data in the cloud and offers an interactive, Material Design-inspired UI for easy data management.",
-      tags: ["Flutter", "Dart", "Firebase"],
-      image: "https://apnitor.com/img/logo.png",
-      liveUrl: "#",
-      githubUrl: "#"
-    },
+    {
+  title: "Apnitor Attendance App",
+  description: "The Apnitor Attendance App is an in-house attendance management solution designed to simplify employee time tracking. It supports real-time check-in and check-out, secure cloud-based data storage, and seamless synchronization across devices. Built with Flutter and Firebase, the app features a clean, Material Design–inspired interface for efficient attendance monitoring and management.",
+  tags: ["Flutter", "Dart", "Firebase"],
+  image: "https://apnitor.com/img/logo.png",
+  liveUrl: "#",
+  githubUrl: "#"
+},
+{
+  title: "Massive Danamik Attendance App",
+  description: "The Massive Danamik Attendance App is a custom-developed, real-time attendance tracking solution built for client use. It includes smart check-in and check-out logic, reliable cloud data storage, and instant data synchronization. Developed using Flutter and Firebase, the app delivers a responsive, Material Design–inspired UI for intuitive workforce attendance management.",
+  tags: ["Flutter", "Dart", "Firebase"],
+  image: "https://play-lh.googleusercontent.com/dgryS04tIUrOxJarhcUtZsvq2PJQklnohjy0ML30Hj2CU4xiVLT9Wjvki7rY0jswJthFOQSkSIbkMvx_ASZtkw=w240-h480-rw",
+  liveUrl: "https://play.google.com/store/apps/details?id=com.apnitor.massivedynamic",
+  githubUrl: "#"
+},
     {
       title: "IRH-Backend",
       description: "A backend system developed to handle a role-based user management system with RESTful APIs. It provides features like user authentication, file handling, and CRUD operations, ensuring secure and efficient management of user data and access control.",
