@@ -8,7 +8,8 @@ const Skills = () => {
         { name: "React-Native", level: 95 },
         { name: "Flutter", level: 90 },
         { name: "React", level: 95 },
-         { name: "Python", level: 85 },
+         { name: "Python & Django", level: 85 },
+         { name: "Angular", level: 85 },
       ]
     },
     {
@@ -25,11 +26,13 @@ const Skills = () => {
         { name: "Node.js", level: 75 },
         { name: "Git/GitHub", level: 90 },
         { name: "REST APIs", level: 80 },
-         
       { name: "Django", level: 80 },
-      { name: "FastAPI", level: 80 }
+      { name: "FastAPI", level: 80 },
+      { name: "Digital Ocean", level: 80 },
+      { name: "AWS,EC2", level: 80 },
+      { name: "CI/CD", level: 80 },
       ]
-    }
+    },
   ];
 
   return (
