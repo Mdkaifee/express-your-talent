@@ -40,7 +40,7 @@ const Portfolio = () => {
   githubUrl: "#"
 },
 {
-  title: "QuickBasket - Delivery Partner App",
+  title: "Online Basket - Delivery Partner App",
   description:
     "A delivery partner app to manage delivery operations — view assigned orders, update delivery statuses, and streamline last-mile delivery workflow.",
   tags: ["Flutter", "Delivery Partner", "Last-mile"],
