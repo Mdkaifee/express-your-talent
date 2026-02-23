@@ -23,27 +23,28 @@ const Portfolio = () => {
 {
   title: "Online Basket - Grocery App",
   description:
-    "A modern grocery ordering app built from scratch, featuring product browsing, secure user authentication, cart management, and seamless Razorpay payments for a smooth shopping experience.",
-  tags: ["Flutter", "Dart", "Razorpay"],
+    "A full-scale grocery ordering app with dynamic shop-based product listings. Users can select their address, view available shops under that location, and browse categories & products that change based on the selected shop. Features secure authentication, cart management, Razorpay online payments, Cash on Delivery (COD), and real-time push notifications across the order lifecycle.",
+  tags: ["Flutter", "Dart", "Razorpay", "Push Notifications", "E-commerce"],
   image: "https://play-lh.googleusercontent.com/DCcL_QCwALtjmX0d38exY_lHVgxsrJV7-kcTzacgaMyDU-Iel4wFVwbtaJotkMrbLNMu62ce4p8phtsXyxoWVg=w240-h480-rw",
   liveUrl: "https://play.google.com/store/apps/details?id=com.onlinebasket",
   githubUrl: "#"
 },
 
-    {
+{
   title: "Online Basket - Warehouse App",
   description:
-    "A warehouse partner app for handling order preparation and operations. Supports order processing workflows for warehouse staff to manage fulfillment efficiently.",
-  tags: ["Flutter", "Warehouse", "Order Fulfillment"],
+    "A warehouse management app powering the backend operations of Online Basket. Enables staff to manage categories and products, process incoming orders, update order statuses (Packed, Assigned, Delivered), and assign delivery partners. Includes real-time notification flow — warehouse notified on new orders, users notified when packed, assigned, and delivered.",
+  tags: ["Flutter", "Warehouse Management", "Order Processing", "Operations"],
   image: "https://play-lh.googleusercontent.com/jTxH4t41XhVMWFNlqBzjB2QMpY8Jvv91qmWZ-5b82uW-R-8GfbQpC33dmNuG6Lsj0-1YigCA1MrtvR1mzy59=w240-h480-rw",
   liveUrl: "https://play.google.com/store/apps/details?id=com.onlinebasketwarehouse",
   githubUrl: "#"
 },
+
 {
   title: "Online Basket - Delivery Partner App",
   description:
-    "A delivery partner app to manage delivery operations — view assigned orders, update delivery statuses, and streamline last-mile delivery workflow.",
-  tags: ["Flutter", "Delivery Partner", "Last-mile"],
+    "A last-mile delivery app with controlled onboarding and warehouse-specific assignment. Delivery partners register using their pincode, view available shops in that service area, choose a shop to register under, and wait for verification. After approval via email, they can log in and receive delivery assignments exclusively from their verified warehouse. Includes live order updates and real-time notifications.",
+  tags: ["Flutter", "Delivery Management", "Last Mile", "Logistics"],
   image: "https://play-lh.googleusercontent.com/joR6CVVXpD8GA8bmRMn5fK8x1WgWKFEmJI0EA3eUJqfgNKAMmgpcgUv9SmZkm9TqhlVjoTejkH-KZPr312AV=w240-h480-rw",
   liveUrl: "https://play.google.com/store/apps/details?id=com.quickbasket.delivery",
   githubUrl: "#"
