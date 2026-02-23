@@ -36,7 +36,7 @@ const About = () => {
             
             <div className="space-y-4 text-muted-foreground text-lg leading-relaxed">
               <p>
-                I'm a passionate FullStack developer with over 1.5 years of experience 
+                I'm a passionate FullStack developer with over 2 years of experience 
                 creating digital experiences that matter. My journey started with a 
                 curiosity for how things work and evolved into a love for crafting 
                 beautiful, functional Mobile & Web applications.
