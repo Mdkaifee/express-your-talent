@@ -140,6 +140,14 @@ const Portfolio = () => {
   liveUrl: "https://menustudio.onrender.com/",
   githubUrl: "#"
 },
+    {
+  title: "Indian Jeera – Lightweight Jira-Style Workspace",
+  description: "Indian Jeera is a lightweight Jira-inspired project management platform designed for small teams and side projects. It features secure authentication, workspace creation with customizable boards and columns, task management with drag-and-drop functionality, and token-based collaborator access control. Built to simplify agile workflows with a clean and minimal interface.",
+  tags: ["FastAPI", "React", "MongoDB", "JWT Auth", "Project Management"],
+  image: "https://cdn.dribbble.com/userupload/41893103/file/original-9dc4240e828e04c6d7a11eb1d9f1bdf4.jpg?resize=400x300",
+  liveUrl: "https://indian-jeera.onrender.com",
+  githubUrl: "#"
+},
   ];
 
   return (
