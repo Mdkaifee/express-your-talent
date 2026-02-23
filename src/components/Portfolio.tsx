@@ -132,7 +132,14 @@ const Portfolio = () => {
   liveUrl: "https://glowante.com/",
   githubUrl: "#"
 },
-
+{
+  title: "MenuStudio – Digital QR Menu",
+  description: "A QR-based digital menu management system for restaurants. Built with FastAPI, MongoDB, and React, it allows admins to create categories, add items, upload templates, and generate shareable QR codes. Customers can scan and instantly view live menus without any app installation.",
+  tags: ["FastAPI", "React", "MongoDB", "SaaS", "QR Generator"],
+  image: "https://images.unsplash.com/photo-1490645935967-10de6ba17061?q=80&w=800&auto=format&fit=crop",
+  liveUrl: "https://menustudio.onrender.com/",
+  githubUrl: "#"
+},
   ];
 
   return (
