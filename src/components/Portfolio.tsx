@@ -112,7 +112,7 @@ const Portfolio = () => {
     "A React-based admin dashboard to manage registered users, upload workout videos, create plans shown in the app, manage foods/categories using USDA data, add meals/products, send admin notifications, manage legal documents, and view analytics via dashboards and charts.",
   tags: ["React", "Admin Dashboard", "Charts", "USDA"],
   image: "https://www.simplestartsco.com/cdn/shop/files/LOGO.png?v=1753370847&width=260",
-  liveUrl: "https://dev.glowante.com",
+  liveUrl: "http://admin.simplestartsco.com/",
   githubUrl: "#"
 },
 {
