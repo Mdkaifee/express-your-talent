@@ -215,26 +215,31 @@ const Portfolio = () => {
     ))}
   </div>
   
-<div className="flex gap-3">
-  <a href={project.liveUrl} target="_blank" rel="noopener noreferrer">
-    <Button 
-      size="sm" 
-      className="bg-gradient-primary text-primary-foreground hover:opacity-90 transition-opacity flex-1"
-    >
-      <ExternalLink className="w-4 h-4 mr-2" />
-      Live Demo
-    </Button>
-  </a>
+<div className="flex flex-wrap gap-3">
+  {project.liveUrl && project.liveUrl !== "#" && (
+    <a href={project.liveUrl} target="_blank" rel="noopener noreferrer">
+      <Button size="sm">
+        <ExternalLink className="w-4 h-4 mr-2" />
+        Live Demo
+      </Button>
+    </a>
+  )}
 
-  <a href={project.githubUrl} target="_blank" rel="noopener noreferrer">
-    <Button 
-      size="sm" 
-      variant="outline"
-      className="border-primary/30 hover:border-primary hover:bg-primary/10"
-    >
-      <Github className="w-4 h-4" />
-    </Button>
-  </a>
+  {project.packageurl && project.packageurl !== "#" && (
+    <a href={project.packageurl} target="_blank" rel="noopener noreferrer">
+      <Button size="sm" variant="npm">
+        npm
+      </Button>
+    </a>
+  )}
+
+  {project.githubUrl && project.githubUrl !== "#" && (
+    <a href={project.githubUrl} target="_blank" rel="noopener noreferrer">
+      <Button size="sm" variant="outline">
+        <Github className="w-4 h-4" />
+      </Button>
+    </a>
+  )}
 </div>
 
 </CardContent>
