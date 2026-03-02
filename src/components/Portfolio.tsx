@@ -154,7 +154,7 @@ const Portfolio = () => {
   description:
     "DostLang is a custom-built mini programming language designed for simplicity and fun experimentation. It includes a CLI tool via npm and a live web playground where developers can write and run code instantly. Install globally using npm and execute scripts directly from your terminal. Built to explore language design, parsing, and execution from scratch.",
   tags: ["JavaScript", "Node.js", "Programming Language", "CLI", "Compiler Design"],
-  image: "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1200&q=80",
+  image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTPtdobzHdo5wya_YPMUZ5NnZRtQZhHtVULwQ&s",
   liveUrl: "https://www.npmjs.com/package/@mdkaifee/dostlang",
   githubUrl: "https://github.com/Mdkaifee/Dostlang_npm"
 },
@@ -163,7 +163,7 @@ const Portfolio = () => {
   description:
     "Baigan is a VS Code extension that plays an alert sound whenever a terminal command exits with a non-zero status code. It helps developers avoid missing errors while multitasking. Supports custom audio file paths and includes a manual test command to trigger the sound instantly.",
   tags: ["VS Code Extension", "JavaScript", "Developer Tools", "Productivity"],
-  image: "https://code.visualstudio.com/assets/images/code-stable.png",
+  image: "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2502430/extras/3b3307c42c28efebf9acdb9133bf8758.poster.webp?t=1761899319",
   liveUrl: "https://marketplace.visualstudio.com/items?itemName=MdKaifee.terminal-error-audio-alert",
   githubUrl: "#"
 },
