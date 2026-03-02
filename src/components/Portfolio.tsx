@@ -156,7 +156,8 @@ const Portfolio = () => {
   tags: ["JavaScript", "Node.js", "Programming Language", "CLI", "Compiler Design"],
   image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTPtdobzHdo5wya_YPMUZ5NnZRtQZhHtVULwQ&s",
   liveUrl: "https://dostlang.onrender.com/",
-  githubUrl: "https://github.com/Mdkaifee/Dostlang_npm"
+  githubUrl: "https://github.com/Mdkaifee/Dostlang_npm",
+      packageurl: "https://www.npmjs.com/package/@mdkaifee/dostlang",
 },
 {
   title: "Baigan – VS Code Terminal Error Audio Alert",
