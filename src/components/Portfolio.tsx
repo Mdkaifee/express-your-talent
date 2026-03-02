@@ -155,7 +155,6 @@ const Portfolio = () => {
     "DostLang is a custom-built mini programming language designed for simplicity and fun experimentation. It includes a CLI tool via npm and a live web playground where developers can write and run code instantly. Install globally using npm and execute scripts directly from your terminal. Built to explore language design, parsing, and execution from scratch.",
   tags: ["JavaScript", "Node.js", "Programming Language", "CLI", "Compiler Design"],
   image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTPtdobzHdo5wya_YPMUZ5NnZRtQZhHtVULwQ&s",
-  packageurl: "https://www.npmjs.com/package/@mdkaifee/dostlang",
   liveUrl: "https://dostlang.onrender.com/",
   githubUrl: "https://github.com/Mdkaifee/Dostlang_npm"
 },
